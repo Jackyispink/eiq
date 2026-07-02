@@ -1,0 +1,29 @@
+:root {
+  --surface-1: #ffffff;
+  --surface-2: #f8fbfd;
+  --line-soft: #d7e2e6;
+  --text-strong: #14253c;
+  --text-muted: #5f6c80;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text-strong);
+  background: var(--surface-2);
+}
+
+a {
+  color: inherit;
+}

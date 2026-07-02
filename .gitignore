@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated outputs
+uploads/
+data/
+scripts/
+backend/scripts/
+*.db
+*.sqlite
+*.sqlite3
+backend/data/experiments/
+backend/data/sft/
+backend/data/doe.py
+
+# Large local model files
+backend/model/
+lastdemo/backend/model/
+
+# Local historical copies and packaged releases
+demo/
+lastdemo/
+release/
+tools/
+
+# Unused legacy modules
+backend/report_generator.py
+backend/summary_generator.py
+frontend/README.md
+frontend/src/assets/logo.svg
+frontend/src/components/icons/
+
+# Office temporary files
+~$*
